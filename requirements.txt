@@ -4,6 +4,9 @@ setuptools
 python-dotenv
 yfinance
 pandas
+numpy==1.26.4
 pandas-ta
 google-generativeai
 requests
+
+
