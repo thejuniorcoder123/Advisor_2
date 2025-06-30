@@ -183,6 +183,9 @@ def analyze():
         return jsonify(sanitized_response)
     except Exception as e:
         return jsonify({"error": "A critical server error occurred. Check logs."}), 500
+@app.route('/')
+def home():
+    return "Flask App is Running!"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
