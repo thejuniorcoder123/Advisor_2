@@ -1,4 +1,6 @@
 Flask
+gunicorn
+setuptools
 python-dotenv
 yfinance
 pandas
