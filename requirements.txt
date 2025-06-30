@@ -1,0 +1,7 @@
+Flask
+python-dotenv
+yfinance
+pandas
+pandas-ta
+google-generativeai
+requests
